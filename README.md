@@ -1,3 +1,6 @@
-# docker_vscode_Competitive_programming
+# DockerにホストマシンのVScodeから編集できるようにする
 
-https://qiita.com/Yuki_Oshima/items/d3b52c553387685460b0
+## 競技プログラミングでの環境構築をローカルで行わなくても良い
+
+cd cpp
+g++ -o main main.cpp && ./main < p.txt
