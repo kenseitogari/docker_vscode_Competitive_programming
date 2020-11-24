@@ -1,25 +1,17 @@
 {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Main",
-            "type": "cppdbg",
+            "name": "g++-10 - アクティブ ファイルのビルドとデバッグ",
+            "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/main.out",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "Build Main"
+            "preLaunchTask": "C/C++: g++-10 build active file"
         }
     ]
 }

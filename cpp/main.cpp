@@ -1,18 +1,30 @@
 #pragma GCC optimize("O3")
 #pragma GCC target("sse4")
 
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <cmath>
+#include <deque>
+#include <iostream>
+#include <map>
+#include <queue>
+#include <set>
+#include <stack>
+#include <string>
+#include <vector>
+#include <iomanip>
 
-#include <ext/pb_ds/assoc_container.hpp>
-#include <ext/pb_ds/tree_policy.hpp>
+// #include <ext/pb_ds/assoc_container.hpp>
+// #include <ext/pb_ds/tree_policy.hpp>
+
+#include <string>  // ヘッダファイルインクルード
 #include <typeinfo>
-
+using namespace std;  //  名前空間指定
 using namespace std;
-using namespace __gnu_pbds;
+// using namespace __gnu_pbds;
 
 typedef long long ll;
 typedef long double ld;
-typedef complex<ld> cd;
+
 
 typedef pair<int, int> pi;
 typedef pair<ll, ll> pl;
@@ -23,11 +35,9 @@ typedef vector<ld> vd;
 typedef vector<ll> vl;
 typedef vector<pi> vpi;
 typedef vector<pl> vpl;
-typedef vector<cd> vcd;
 
 template <class T>
-using Tree =
-    tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+
 
 #define FOR(i, a, b) for (int i = a; i < (b); i++)
 #define F0R(i, a) for (int i = 0; i < (a); i++)
@@ -48,8 +58,6 @@ const int MOD = 1000000007;
 const ll INF = 1e18;
 const int MX = 100001;  // check the limits, dummy
 
-typedef long long ll;
-const int inf = INT_MAX / 2;
 const ll infl = 1LL << 60;
 template <class T>
 bool chmax(T &a, const T &b) {
@@ -86,29 +94,9 @@ void Main() {
   ios_base::sync_with_stdio(0);
   cin.tie(0);
 
-  cout << "yes" << endl;
-
-  int N;
-  cin >> N;
-    cout << N << endl;
-
-//   vi A(N);
-//   ll M = 0;
-//   ll J2 = 0;
-//   ll C = 0;
-
-//   FOR(i, 0, N) {
-//     cin >> A[i];
-//     // cout << A[i] << endl;
-//     M += abs(A[i]);
-//     J2 += pow(A[i], 2);
-//     if (abs(A[i]) > C) {
-//       C = abs(A[i]);
-//     }
-//   }
-//   cout << M << endl;
-//   cout << sqrt(J2) << endl;
-//   cout << C << endl;
+  ll a,b;
+  cin >> a>>b;
+  cout << a-b << endl;
 }
 
 int main() {

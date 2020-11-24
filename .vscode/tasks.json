@@ -1,14 +1,28 @@
 {
-    "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build Main",
             "type": "shell",
-            "command": "g++ -g main.cpp -o main.out",
+            "label": "C/C++: g++-10 build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-std=c++11",
+                "-Wall"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
         }
-    ]
+    ],
+    "version": "2.0.0"
 }
