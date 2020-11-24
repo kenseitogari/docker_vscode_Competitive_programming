@@ -5,8 +5,9 @@
 ### 拡張機能をインストール
 VS Code上でctrl + shift + Xで拡張機能メニューを開き、「Remote-Containers」を検索してインストールします。
 
+### Remote-Containersを実行
 f1メニュー「Remote-Containers: Open Folder in Container...」
 
-### 実行する方法
+### ソースコードを実行する方法
 cd cpp
 g++ -o main main.cpp && ./main < p.txt
