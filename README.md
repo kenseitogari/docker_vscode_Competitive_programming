@@ -6,6 +6,6 @@
 VS Code上でctrl + shift + Xで拡張機能メニューを開き、「Remote-Containers」を検索してインストールします。
 
 
-
+### 実行する方法
 cd cpp
 g++ -o main main.cpp && ./main < p.txt
