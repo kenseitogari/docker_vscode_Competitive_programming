@@ -13,4 +13,8 @@ f1 メニュー「Remote-Containers: Open Folder in Container...」
 #### 1.1 ソースコードを実行する方法
 
 cd cpp
+
+(標準入力なし)
+g++ -o main main.cpp && ./main
+(標準入力あり)
 g++ -o main main.cpp && ./main < p.txt
