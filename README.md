@@ -4,7 +4,7 @@
 
 ### 0.拡張機能をインストール
 
-VS Code 上で ctrl + shift + X で拡張機能メニューを開き、「Remote-Containers」を検索してインストールします。
+VS Code 上で command + shift + X で拡張機能メニューを開き、「Remote-Containers」を検索してインストールします。
 
 ### 1. Remote-Containers を実行
 
